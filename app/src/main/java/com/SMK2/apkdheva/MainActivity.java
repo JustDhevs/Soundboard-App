@@ -76,11 +76,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Second Linear Layout Buttons
         ImageView Button4 = findViewById(R.id.Button11);
-        Button4.setTag(R.raw.ustdmrh);
+        Button4.setTag(R.raw.galaxy);
         Button4.setOnClickListener(playSound);
 
         ImageView Button5 = findViewById(R.id.Button12);
-        Button5.setTag(R.raw.wait);
+        Button5.setTag(R.raw.aduhh);
         Button5.setOnClickListener(playSound);
 
         ImageView Button6 = findViewById(R.id.Button13);

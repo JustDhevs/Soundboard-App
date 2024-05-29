@@ -15,7 +15,8 @@
         android:orientation="horizontal"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="6dp">
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal">
 
 
         <Button
@@ -30,7 +31,9 @@
         android:layout_height="match_parent"
         android:layout_below="@id/Linear1"
         android:layout_marginTop="6dp">
-
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -176,6 +179,7 @@
 
             </LinearLayout>
         </RelativeLayout>
+        </HorizontalScrollView>
     </ScrollView>
 </RelativeLayout>
 
