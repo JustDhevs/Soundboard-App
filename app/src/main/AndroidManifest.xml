@@ -3,9 +3,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/neko"
-        android:label="GengshinIngpact"
-        android:roundIcon="@drawable/gengshin"
+        android:icon="@drawable/red"
+        android:label="Dhev's Soundboard"
+        android:roundIcon="@drawable/red"
         android:supportsRtl="true">
 
         <!-- MainActivity as Launcher Activity -->

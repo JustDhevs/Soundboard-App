@@ -18,11 +18,10 @@
         android:layout_marginTop="6dp"
         android:gravity="center_horizontal">
 
-
-        <Button
+        <TextView
+            android:text="SOUNDBOARD"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Top Button" />
+            android:layout_height="20sp" />
     </LinearLayout>
 
     <!-- ScrollView containing the rest of the layout -->
@@ -31,20 +30,17 @@
         android:layout_height="match_parent"
         android:layout_below="@id/Linear1"
         android:layout_marginTop="6dp">
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <!-- First Vertical Linear Layout -->
             <LinearLayout
-                android:layout_marginLeft="25sp"
                 android:id="@+id/Linear2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_alignParentStart="true">
 
                 <ImageView
                     android:id="@+id/Button1"
@@ -81,8 +77,6 @@
                     android:layout_width="100sp"
                     android:layout_height="100sp"
                     android:src="@drawable/red" />
-
-
             </LinearLayout>
 
             <!-- Second Vertical Linear Layout -->
@@ -90,9 +84,8 @@
                 android:id="@+id/Linear3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/Linear2"
-                android:orientation="vertical"
-                android:layout_marginLeft="25sp">
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/Button7"
@@ -131,55 +124,51 @@
                     android:src="@drawable/red" />
             </LinearLayout>
 
+            <!-- Third Vertical Linear Layout -->
             <LinearLayout
-                android:layout_marginLeft="25sp"
-                android:orientation="vertical"
-                android:layout_below="@id/Linear1"
-                android:layout_toRightOf="@id/Linear3"
                 android:id="@+id/Linear4"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                tools:ignore="NotSibling">
-                <ImageView
-                    android:layout_width="100sp"
-                    android:layout_height="100sp"
-                    android:id="@+id/Button13"
-                    android:src="@drawable/red"/>
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="25sp"
+                android:orientation="vertical">
 
                 <ImageView
-                    android:src="@drawable/red"
+                    android:id="@+id/Button13"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/red" />
+
+                <ImageView
                     android:id="@+id/Button14"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:text="Button1" />
+                    android:src="@drawable/red" />
+
                 <ImageView
-                    android:src="@drawable/red"
                     android:id="@+id/Button15"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:text="Button1" />
+                    android:src="@drawable/red" />
+
                 <ImageView
-                    android:src="@drawable/red"
                     android:id="@+id/Button16"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:text="Button1" />
+                    android:src="@drawable/red" />
+
                 <ImageView
-                    android:src="@drawable/red"
                     android:id="@+id/Button17"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:text="Button1" />
+                    android:src="@drawable/red" />
+
                 <ImageView
-                    android:src="@drawable/red"
                     android:id="@+id/Button18"
                     android:layout_width="100sp"
                     android:layout_height="100sp"
-                    android:text="Button1" />
-
+                    android:src="@drawable/red" />
             </LinearLayout>
         </RelativeLayout>
-        </HorizontalScrollView>
     </ScrollView>
 </RelativeLayout>
-
